@@ -1,0 +1,16 @@
+{
+    "dataset": "20 Newsgroups",
+    "total_original_documents": 18846,
+    "documents_used": 18810,
+    "documents_excluded": 36,
+    "number_of_topics": 20,
+    "top_words_per_topic": 15,
+    "lda": {
+        "training_time_seconds": 19.09,
+        "perplexity": 2424.9534
+    },
+    "nmf": {
+        "training_time_seconds": 6.75,
+        "reconstruction_error": 133.8264
+    }
+}

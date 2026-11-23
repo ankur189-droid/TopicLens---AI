@@ -1,0 +1,24 @@
+{
+    "dataset_name": "20 Newsgroups",
+    "total_documents": 18846,
+    "total_categories": 20,
+    "preprocessing_steps": [
+        "Email header removal",
+        "Quoted line removal",
+        "Lowercase conversion",
+        "URL removal",
+        "Email address removal",
+        "HTML tag removal",
+        "Special character removal",
+        "Whitespace normalization",
+        "Stopword removal",
+        "Lemmatization"
+    ],
+    "empty_cleaned_documents": 33,
+    "empty_processed_documents": 36,
+    "average_original_words": 283.66,
+    "average_cleaned_words": 206.94,
+    "average_processed_words": 105.5,
+    "original_total_words": 5345781,
+    "processed_total_words": 1988319
+}

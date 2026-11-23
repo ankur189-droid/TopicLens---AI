@@ -1,0 +1,23 @@
+{
+    "dataset": "20 Newsgroups",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_device": "cuda",
+    "embedding_dimension": 384,
+    "documents_used": 18813,
+    "documents_excluded": 33,
+    "number_of_discovered_topics": 87,
+    "documents_assigned_to_topics": 13181,
+    "outlier_documents": 5632,
+    "outlier_percentage": 29.94,
+    "embedding_generation_time_seconds": 0.04,
+    "topic_model_training_time_seconds": 47.48,
+    "configuration": {
+        "batch_size": 32,
+        "max_sequence_length": 256,
+        "umap_neighbors": 15,
+        "umap_components": 5,
+        "min_topic_size": 30,
+        "min_cluster_size": 30,
+        "min_samples": 10
+    }
+}

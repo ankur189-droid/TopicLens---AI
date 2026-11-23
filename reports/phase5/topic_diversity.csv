@@ -1,0 +1,4 @@
+model,topic_diversity
+LDA,0.78
+NMF,0.93
+BERTopic,0.7854406130268199

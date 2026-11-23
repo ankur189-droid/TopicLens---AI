@@ -1,0 +1,56 @@
+{
+    "dataset": "20 Newsgroups",
+    "evaluation_methods": [
+        "C_v topic coherence",
+        "Topic diversity",
+        "Normalized Mutual Information",
+        "Adjusted Rand Index",
+        "Topic coverage"
+    ],
+    "coherence_corpus": {
+        "lda": "cleaned_text",
+        "nmf": "cleaned_text",
+        "bertopic": "cleaned_text"
+    },
+    "top_words_per_topic": 15,
+    "models": {
+        "LDA": {
+            "coherence_cv": 0.5828177059481955,
+            "topic_diversity": 0.78,
+            "documents_evaluated": 18810,
+            "outlier_documents": 0,
+            "topic_coverage_percentage": 100.0,
+            "nmi_full": 0.3818,
+            "ari_full": 0.2238,
+            "nmi_inliers_only": 0.3818,
+            "ari_inliers_only": 0.2238,
+            "training_time_seconds": 19.09,
+            "perplexity": 2424.9534
+        },
+        "NMF": {
+            "coherence_cv": 0.719420186466525,
+            "topic_diversity": 0.93,
+            "documents_evaluated": 18810,
+            "outlier_documents": 0,
+            "topic_coverage_percentage": 100.0,
+            "nmi_full": 0.4323,
+            "ari_full": 0.2743,
+            "nmi_inliers_only": 0.4323,
+            "ari_inliers_only": 0.2743,
+            "training_time_seconds": 6.75,
+            "reconstruction_error": 133.8264
+        },
+        "BERTopic": {
+            "coherence_cv": 0.6459104376462557,
+            "topic_diversity": 0.7854406130268199,
+            "documents_evaluated": 18810,
+            "outlier_documents": 5632,
+            "topic_coverage_percentage": 70.06,
+            "nmi_full": 0.4922,
+            "ari_full": 0.1739,
+            "nmi_inliers_only": 0.6257,
+            "ari_inliers_only": 0.4909,
+            "training_time_seconds": 47.48
+        }
+    }
+}
